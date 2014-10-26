@@ -2,7 +2,7 @@
 $reginvcode = "ib781a7bcad58002a8";
 $action = "reginvcodeck";
 
-$url = 'http://gfw74.tk/register.php';
+$url = 'http://www.baidu.com';
 $post_data = array("reginvcode" => $reginvcode,"action" => $action);
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
