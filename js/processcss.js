@@ -1,0 +1,2 @@
+["11", "12", "13", "14", "18", "19", "20", "21", "26", "27", "28"] "共11天,198元"
+var dates=[];document.querySelectorAll('html /deep/ .com-panel').array().forEach(function(item){var date=item.querySelector('.com-t-day').innerText;if(date.indexOf('/')!=-1)return;item=item.querySelector('.com-f-time');var endTime=item.children[1].innerText;endTime=endTime&&parseInt(endTime.split(":")[0]);if(endTime>=20){dates.push(date);item.style.webkitBoxShadow="0 0 3px 3px red"}});console.log(dates,"共"+dates.length+"天,"+(dates.length*18)+"元")
